@@ -1,0 +1,39 @@
+#body{
+    background-image: url(assets/fundo.jpg) ;
+}
+
+#header {
+    background-color: whitesmoke; /* Define a cor de fundo do cabeçalho */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da tela */
+    position: fixed; /* Faz o cabeçalho fixo no topo da tela */
+    top: 0; /* Alinha o cabeçalho ao topo da tela */
+    left: 0; /* Garante que o cabeçalho comece na borda esquerda */
+    z-index: 1000; /* Garante que o cabeçalho esteja acima de outros elementos */
+    padding: 10px; /* Adiciona um preenchimento ao redor do conteúdo do cabeçalho */
+}
+
+
+.container-img{
+display:flex;
+gap:100px;
+text-align: center;
+}
+
+
+
+.caption {
+    font-style: italic;
+    color: #555; 
+    margin-top: 5px;
+}
+
+#footer {
+    background-color: black; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da tela */
+    position: absolute; /* Define a posição como absoluta */
+    bottom: 0; /* Alinha o rodapé na parte inferior da tela */
+    left: 0; /* Garante que o rodapé comece na borda esquerda */
+    padding: 20px; /* Adiciona um preenchimento ao redor do conteúdo do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}

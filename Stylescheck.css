@@ -1,0 +1,110 @@
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 2s;
+}
+
+header .logo img {
+    height: 60px;
+    transition: transform 0.5s;
+}
+
+header .logo img:hover {
+    transform: rotate(360deg);
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    animation: bounceIn 1s;
+}
+
+header nav ul li {
+    margin: 0 15px;
+    transition: transform 0.3s;
+}
+
+header nav ul li:hover {
+    transform: scale(1.2);
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.contato{
+    margin-top: 10px;
+    font-size: 0.9em;
+    animation: fadeIn 2s;
+}
+
+#Botao-cal{
+    
+    background-color:rgb(9, 128, 128);
+    border: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+#Botao-cal:active{
+    background-color:rgb(9, 128, 128);
+    transform: scale(1.2);
+
+} 
+
+#Botao-cal:hover{
+    transition: transform 0.2s ease;
+}
+
+.Cep,.Cupom,.Adicionados{
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcc5c;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    animation: fadeInUp 2s;
+
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ff6f61;
+    color: #fff;
+    animation: fadeInUp 2s;
+}
+
+footer .footer-links, footer .redes-sociais {
+    margin-top: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: color 0.5s;
+}
+
+footer a:hover {
+    color: #333;
+}
